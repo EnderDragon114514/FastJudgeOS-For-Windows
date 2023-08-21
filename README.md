@@ -8,7 +8,7 @@
 
 ## Part 2 开发原因
 
-没什么原因，就是看了[lemon评测机](https://oi-wiki.org/tools/judger/lemon/)后写的一个评测机
+没什么原因，就是看了[lemon评测机](https://oi-wiki.org/tools/judger/lemon/)后自己写的一个评测机，依赖于WindowsAPI
 
 ## Part 3 更新日志
 
@@ -20,7 +20,12 @@
 
 开发ing，再等一下嘛，~~很快~~一会儿就好了
 
-## Part 4 开源说明
+## Part 4 使用说明
+
+1. 编译器：目前仅支持G++编译器
+2. 文件存放地址：将要评测的代码命名为`test.cpp`并
+
+## Part 5 开源说明
 
 本软件使用GPLv3开源协议，此处为附加条款，与原始协议互不冲突
 
