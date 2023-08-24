@@ -1,2 +1,8 @@
 ﻿  FastJudgeOS For Windows.cpp
+D:\FastJudgeOS For Windows\FastJudgeOS For Windows.cpp(32,56): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+D:\FastJudgeOS For Windows\FastJudgeOS For Windows.cpp(162,32): warning C4244: “=”: 从“_Rep”转换到“int”，可能丢失数据
+          with
+          [
+              _Rep=__int64
+          ]
   FastJudgeOS For Windows.vcxproj -> D:\FastJudgeOS For Windows\x64\Debug\FastJudgeOS For Windows.exe
