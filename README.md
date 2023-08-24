@@ -1,7 +1,5 @@
 # FastJudgeOS-For-Windows —— 一个为轻量化快速编译而生的评测机，适用于Windows系统
 
-由于某些SDK原因，暂未开发Linux版
-
 #### [点击前往作者的主页](https://enderdragon114514.github.io/Homepage/index.html)
 
 ## Part 1 介绍
@@ -23,6 +21,10 @@
 #### v0.1.0 Beta Release 2
 
 v0.1.0 Beta的最后一个版本
+
+这次除了补全功能和修复bug以外，还增加了Linux版
+
+后续更新中Linux版将会同步Windows版更新(仅支持64位模式)
 
 下次修复Bug时就是0.1.1了
 
@@ -70,7 +72,19 @@ sample5.out
 
 6.4. 输出成绩并退出程序
 
-### 注:一定要把MinGW-W64文件夹放在主程序所在目录中，否则将无法正常生成程序！
+### 注:一定要把MinGW-W64文件夹放在主程序所在目录中，否则将无法正常生成程序！(Windows)
+
+7. Linux版使用说明
+
+7.1. 先解压下载的`.tar.xz`文件至一个文件夹
+
+7.2. 然后以`root`身份运行下面指令:`bash install.sh`
+
+7.3. 安装完成
+
+7.4. 解压下来的文件中有一个叫做`Sources`的文件夹
+
+7.5. 里面有`make.sh`和`FastJudge-For-Linux.cpp`，`.sh`的是快速生成脚本，适用于安装后无法使用的人用这个生成的文件替换`/bin/FastJudge-For-Linux`；`FastJudge-For-Linux.cpp`是程序源代码
 
 ## Part 5 开源说明
 
